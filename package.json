@@ -1,0 +1,9 @@
+{
+  "type":"module",
+  "dependencies": {
+    "front-matter": "^4.0.2",
+    "fs": "^0.0.1-security",
+    "marked": "^4.0.7",
+    "stemmer": "^2.0.0"
+  }
+}

@@ -1,0 +1,553 @@
+[
+  {
+    "type": "hr",
+    "raw": "---\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "layout: default\ntitle: Contributing\ndescription: A Tutorial on modifying and adding contributors to the site",
+    "text": "layout: default\ntitle: Contributing\ndescription: A Tutorial on modifying and adding contributors to the site",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "layout: default\ntitle: Contributing\ndescription: A Tutorial on modifying and adding contributors to the site",
+        "text": "layout: default\ntitle: Contributing\ndescription: A Tutorial on modifying and adding contributors to the site"
+      }
+    ]
+  },
+  {
+    "type": "hr",
+    "raw": "---\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "# Introduction\n\n",
+    "depth": 1,
+    "text": "Introduction",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Introduction",
+        "text": "Introduction"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "Contributing is a key part of the function of warwick.guide credit so a systems to credit contributes has been created not just on the front page but for individual pages and question submissions.",
+    "text": "Contributing is a key part of the function of warwick.guide credit so a systems to credit contributes has been created not just on the front page but for individual pages and question submissions.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Contributing is a key part of the function of warwick.guide credit so a systems to credit contributes has been created not just on the front page but for individual pages and question submissions.",
+        "text": "Contributing is a key part of the function of warwick.guide credit so a systems to credit contributes has been created not just on the front page but for individual pages and question submissions."
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "Contributors can now add contact details so other students who are having difficulty or have found an error can contact those who have a good knowledge of the content. Declaring yourself as a contributor and adding contact details is optional however teaching others is good revision and it is useful to be able to contact the person who wrote the question.",
+    "text": "Contributors can now add contact details so other students who are having difficulty or have found an error can contact those who have a good knowledge of the content. Declaring yourself as a contributor and adding contact details is optional however teaching others is good revision and it is useful to be able to contact the person who wrote the question.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Contributors can now add contact details so other students who are having difficulty or have found an error can contact those who have a good knowledge of the content. Declaring yourself as a contributor and adding contact details is optional however teaching others is good revision and it is useful to be able to contact the person who wrote the question.",
+        "text": "Contributors can now add contact details so other students who are having difficulty or have found an error can contact those who have a good knowledge of the content. Declaring yourself as a contributor and adding contact details is optional however teaching others is good revision and it is useful to be able to contact the person who wrote the question."
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "# New Contributors\n",
+    "depth": 1,
+    "text": "New Contributors",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "New Contributors",
+        "text": "New Contributors"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "Contributors now have a page with the name and contact information and example can be seen [here]( {{ site.baseurl }}/contributors/index.html?name=Joseph%20Evans)",
+    "text": "Contributors now have a page with the name and contact information and example can be seen [here]( {{ site.baseurl }}/contributors/index.html?name=Joseph%20Evans)",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Contributors now have a page with the name and contact information and example can be seen [here]( {{ site.baseurl }}/contributors/index.html?name=Joseph%20Evans)",
+        "text": "Contributors now have a page with the name and contact information and example can be seen [here]( {{ site.baseurl }}/contributors/index.html?name=Joseph%20Evans)"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "To add a contributor a new contributor needs to be addded to the `_contributors/contributors.json` file an example is shown below",
+    "text": "To add a contributor a new contributor needs to be addded to the `_contributors/contributors.json` file an example is shown below",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "To add a contributor a new contributor needs to be addded to the ",
+        "text": "To add a contributor a new contributor needs to be addded to the "
+      },
+      {
+        "type": "codespan",
+        "raw": "`_contributors/contributors.json`",
+        "text": "_contributors/contributors.json"
+      },
+      {
+        "type": "text",
+        "raw": " file an example is shown below",
+        "text": " file an example is shown below"
+      }
+    ]
+  },
+  {
+    "type": "code",
+    "raw": "``` json\n  {\n      \"name\":\"Joseph Evans\",\n      \"image\":\"https://avatars.githubusercontent.com/u/72259471?v=4\",\n      * \"github\":\"LoudShadow\",\n      * \"nick\":\"Joseph\",\n      * \"discord\":\"sharpshot2566#2529\",\n      * \"info\" : \"more info\"\n  }\n```",
+    "lang": "json",
+    "text": "  {\n      \"name\":\"Joseph Evans\",\n      \"image\":\"https://avatars.githubusercontent.com/u/72259471?v=4\",\n      * \"github\":\"LoudShadow\",\n      * \"nick\":\"Joseph\",\n      * \"discord\":\"sharpshot2566#2529\",\n      * \"info\" : \"more info\"\n  }"
+  },
+  {
+    "type": "paragraph",
+    "raw": "items shown with a * are optional",
+    "text": "items shown with a * are optional",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "items shown with a * are optional",
+        "text": "items shown with a * are optional"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "## Additional info\n",
+    "depth": 2,
+    "text": "Additional info",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Additional info",
+        "text": "Additional info"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "More details can be added by adding a new key and value to the json object they will be displayed in plain text in the table",
+    "text": "More details can be added by adding a new key and value to the json object they will be displayed in plain text in the table",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "More details can be added by adding a new key and value to the json object they will be displayed in plain text in the table",
+        "text": "More details can be added by adding a new key and value to the json object they will be displayed in plain text in the table"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "### Key link pairs\n",
+    "depth": 3,
+    "text": "Key link pairs",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Key link pairs",
+        "text": "Key link pairs"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "You may wish additional details to be added with a link for example to your website this can be done with a value link object in the vale ",
+    "text": "You may wish additional details to be added with a link for example to your website this can be done with a value link object in the vale ",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "You may wish additional details to be added with a link for example to your website this can be done with a value link object in the vale ",
+        "text": "You may wish additional details to be added with a link for example to your website this can be done with a value link object in the vale "
+      }
+    ]
+  },
+  {
+    "type": "code",
+    "raw": "```\n\"website\":{\"value\": \"my Site\",\"link\": \"http://www.mysite.com/\"}\n```",
+    "lang": "",
+    "text": "\"website\":{\"value\": \"my Site\",\"link\": \"http://www.mysite.com/\"}"
+  },
+  {
+    "type": "heading",
+    "raw": "## Special keys\n",
+    "depth": 2,
+    "text": "Special keys",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Special keys",
+        "text": "Special keys"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "Some of the keys have additional formatting to improve usability and their use may differ from standard",
+    "text": "Some of the keys have additional formatting to improve usability and their use may differ from standard",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Some of the keys have additional formatting to improve usability and their use may differ from standard",
+        "text": "Some of the keys have additional formatting to improve usability and their use may differ from standard"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "### name \n",
+    "depth": 3,
+    "text": "name",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "name",
+        "text": "name"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "This will be displayed at the page header and is used to reference the page across the site",
+    "text": "This will be displayed at the page header and is used to reference the page across the site",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "This will be displayed at the page header and is used to reference the page across the site",
+        "text": "This will be displayed at the page header and is used to reference the page across the site"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "### nick\n",
+    "depth": 3,
+    "text": "nick",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "nick",
+        "text": "nick"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "If this is set it will replace instances of the name on your page",
+    "text": "If this is set it will replace instances of the name on your page",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "If this is set it will replace instances of the name on your page",
+        "text": "If this is set it will replace instances of the name on your page"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "raw": "### Image \n",
+    "depth": 3,
+    "text": "Image",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Image",
+        "text": "Image"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "This should be a url that points to your profile image a url can be obtained from your github profile by right clicking on your picture and selecting `copy image address`",
+    "text": "This should be a url that points to your profile image a url can be obtained from your github profile by right clicking on your picture and selecting `copy image address`",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "This should be a url that points to your profile image a url can be obtained from your github profile by right clicking on your picture and selecting ",
+        "text": "This should be a url that points to your profile image a url can be obtained from your github profile by right clicking on your picture and selecting "
+      },
+      {
+        "type": "codespan",
+        "raw": "`copy image address`",
+        "text": "copy image address"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "### Github \n",
+    "depth": 3,
+    "text": "Github",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Github",
+        "text": "Github"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "This should be your github name and will add a link you your github profile",
+    "text": "This should be your github name and will add a link you your github profile",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "This should be your github name and will add a link you your github profile",
+        "text": "This should be your github name and will add a link you your github profile"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "raw": "### Discord\n",
+    "depth": 3,
+    "text": "Discord",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Discord",
+        "text": "Discord"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "this must be your full discord username and will create a link to your profile",
+    "text": "this must be your full discord username and will create a link to your profile",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "this must be your full discord username and will create a link to your profile",
+        "text": "this must be your full discord username and will create a link to your profile"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "# Using contributors\n\n",
+    "depth": 1,
+    "text": "Using contributors",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Using contributors",
+        "text": "Using contributors"
+      }
+    ]
+  },
+  {
+    "type": "heading",
+    "raw": "## Note Pages\n",
+    "depth": 2,
+    "text": "Note Pages",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Note Pages",
+        "text": "Note Pages"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "contributors can be credited in the notes by using the contributors value in the YAML font matter at the top of the page. THis name should be the same as the supplied name",
+    "text": "contributors can be credited in the notes by using the contributors value in the YAML font matter at the top of the page. THis name should be the same as the supplied name",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "contributors can be credited in the notes by using the contributors value in the YAML font matter at the top of the page. THis name should be the same as the supplied name",
+        "text": "contributors can be credited in the notes by using the contributors value in the YAML font matter at the top of the page. THis name should be the same as the supplied name"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "credit will then be added to the page footer",
+    "text": "credit will then be added to the page footer",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "credit will then be added to the page footer",
+        "text": "credit will then be added to the page footer"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "paragraph",
+    "raw": "this should work with any page that has a layout deriving from `notes.html`",
+    "text": "this should work with any page that has a layout deriving from `notes.html`",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "this should work with any page that has a layout deriving from ",
+        "text": "this should work with any page that has a layout deriving from "
+      },
+      {
+        "type": "codespan",
+        "raw": "`notes.html`",
+        "text": "notes.html"
+      }
+    ]
+  },
+  {
+    "type": "code",
+    "raw": "```\ncontributors:\n  - Person1\n  - Person2\n```",
+    "lang": "",
+    "text": "contributors:\n  - Person1\n  - Person2"
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "## module index pages\n",
+    "depth": 2,
+    "text": "module index pages",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "module index pages",
+        "text": "module index pages"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "Credit can be given to the notes pages on tht index page by adding your name to the authors or contributors on the module yml page in `_data`",
+    "text": "Credit can be given to the notes pages on tht index page by adding your name to the authors or contributors on the module yml page in `_data`",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Credit can be given to the notes pages on tht index page by adding your name to the authors or contributors on the module yml page in ",
+        "text": "Credit can be given to the notes pages on tht index page by adding your name to the authors or contributors on the module yml page in "
+      },
+      {
+        "type": "codespan",
+        "raw": "`_data`",
+        "text": "_data"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "## Quiz questions\n",
+    "depth": 2,
+    "text": "Quiz questions",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Quiz questions",
+        "text": "Quiz questions"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "The use of contributors in the question see the Quiz tutorial will add a small link under the question linking to your page.",
+    "text": "The use of contributors in the question see the Quiz tutorial will add a small link under the question linking to your page.",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "The use of contributors in the question see the Quiz tutorial will add a small link under the question linking to your page.",
+        "text": "The use of contributors in the question see the Quiz tutorial will add a small link under the question linking to your page."
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  },
+  {
+    "type": "heading",
+    "raw": "## Direct link\n",
+    "depth": 2,
+    "text": "Direct link",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "Direct link",
+        "text": "Direct link"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "raw": "A direct link to your page is found at `https://warwick.guide/contributors/index.html?name=<Your%20Name>`",
+    "text": "A direct link to your page is found at `https://warwick.guide/contributors/index.html?name=<Your%20Name>`",
+    "tokens": [
+      {
+        "type": "text",
+        "raw": "A direct link to your page is found at ",
+        "text": "A direct link to your page is found at "
+      },
+      {
+        "type": "codespan",
+        "raw": "`https://warwick.guide/contributors/index.html?name=<Your%20Name>`",
+        "text": "https://warwick.guide/contributors/index.html?name=&lt;Your%20Name&gt;"
+      }
+    ]
+  },
+  {
+    "type": "space",
+    "raw": "\n\n"
+  }
+]
